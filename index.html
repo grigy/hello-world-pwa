@@ -3,6 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Calendar PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Todo Calendar">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Todo Calendar</h1>
+        </header>
+        
+        <main>
+            <section class="calendar-section">
+                <div class="calendar-header">
+                    <button id="prevMonth">&lt;</button>
+                    <h2 id="currentMonth">December 2025</h2>
+                    <button id="nextMonth">&gt;</button>
+                </div>
+                <div class="calendar-grid">
+                    <div class="weekday">Sun</div>
+                    <div class="weekday">Mon</div>
+                    <div class="weekday">Tue</div>
+                    <div class="weekday">Wed</div>
+                    <div class="weekday">Thu</div>
+                    <div class="weekday">Fri</div>
+                    <div class="weekday">Sat</div>
+                    <div id="calendar-days"></div>
+                </div>
+            </section>
+
+            <section class="todo-section">
+                <div class="todo-header">
+                    <h2>Tasks for <span id="selectedDate">Today</span></h2>
+                    <div class="todo-input-container">
+                        <input type="text" id="todoInput" placeholder="Add a new task...">
+                        <button id="addTodo">Add</button>
+                    </div>
+                </div>
+                <ul id="todoList" class="todo-list"></ul>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>ml lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World PWA (test)</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">

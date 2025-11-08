@@ -1,11 +1,11 @@
 {
-    "name": "Hello World PWA",
-    "short_name": "Hello PWA",
+    "name": "Todo Calendar",
+    "short_name": "Todos",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
-    "orientation": "portrait-primary",
+    "background_color": "#F2F2F7",
+    "theme_color": "#007AFF",
+    "orientation": "any",
     "icons": [
         {
             "src": "icon-192x192.png",

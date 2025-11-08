@@ -1,10 +1,12 @@
-const CACHE_NAME = 'hello-world-pwa-v1';
+const CACHE_NAME = 'todo-calendar-v1';
 const FILES_TO_CACHE = [
   '/',
   '/index.html',
   '/style.css',
   '/app.js',
-  '/manifest.json'
+  '/manifest.json',
+  '/icon-192x192.png',
+  '/icon-512x512.png'
 ];
 
 self.addEventListener('install', (evt) => {
