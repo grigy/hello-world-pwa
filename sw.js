@@ -1,4 +1,4 @@
-const CACHE_NAME = 'todo-calendar-v1';
+const CACHE_NAME = 'today-app-v1';
 const FILES_TO_CACHE = [
   '/',
   '/index.html',

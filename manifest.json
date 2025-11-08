@@ -1,6 +1,6 @@
 {
-    "name": "Todo Calendar",
-    "short_name": "Todos",
+    "name": "Today",
+    "short_name": "Today",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#F2F2F7",
